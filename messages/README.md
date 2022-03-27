@@ -86,3 +86,5 @@ nest generate controller messages # Hace lo mismo que el anterior
 @param('nombre'): obtiene una variable dentro de la ruta llamda nombre server.com/messages/nombre
 @body(): Obtiene el json de la petición {data: 'mi dato"}
 @query('nombre'): Obtiene los valores al final de la url ?nombre=diego
+
+los pipes ayudan a validar la que la data que ingresa es correcta, si la raiz del DTO es un array hay que hacerlo con un pipe especial, no se puede usar la clase del DTO normal.
