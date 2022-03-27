@@ -77,4 +77,8 @@ Notas:
 ```bash
 #  Para generar un modulo
 nest generate module messages
+
+#  Para crear un controlador
+nest generate controller messages/messages --flat #Crea el controlador especificando la ruta e indicando que no cree una carpeta
+nest generate controller messages # Hace lo mismo que el anterior
 ```
