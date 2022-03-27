@@ -82,3 +82,7 @@ nest generate module messages
 nest generate controller messages/messages --flat #Crea el controlador especificando la ruta e indicando que no cree una carpeta
 nest generate controller messages # Hace lo mismo que el anterior
 ```
+
+@param('nombre'): obtiene una variable dentro de la ruta llamda nombre server.com/messages/nombre
+@body(): Obtiene el json de la petición {data: 'mi dato"}
+@query('nombre'): Obtiene los valores al final de la url ?nombre=diego
