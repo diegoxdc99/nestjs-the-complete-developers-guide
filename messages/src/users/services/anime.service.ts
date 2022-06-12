@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { firstValueFrom, map } from 'rxjs';
 
 @Injectable()
-export class MessagesService {
+export class AnimeService {
   constructor(private httpService: HttpService) {}
 
   getData() {
